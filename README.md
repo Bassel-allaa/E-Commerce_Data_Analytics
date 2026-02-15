@@ -35,6 +35,8 @@ This project provides a comprehensive analytical framework for Olist, a Brazilia
 
 ### Database Setup & Schema Design
 
+You can find the SQL file for Database Setup [here](/sql_files/Create_Database.sql)
+
 The project begins with creating a normalized relational database with proper foreign key constraints and indexes for optimal query performance.
 
 **Key Tables:**
@@ -60,6 +62,8 @@ CREATE INDEX idx_order_items_product_id ON order_items(product_id);
 ```
 
 ### Data Cleaning & Transformation
+
+You can find the SQL file for Data Cleaning [here](/sql_files/Data_cleaning.sql)
 
 Comprehensive data cleaning was performed to ensure data quality:
 
@@ -131,6 +135,8 @@ The Sales & Product Analysis Dashboard provides a comprehensive view of revenue 
 This dashboard enables product managers and executives to understand which categories drive revenue, identify trends in category performance, and make data-driven decisions about inventory, marketing focus, and seller recruitment.
 
 ###  SQL Analysis Breakdown
+
+You can find the SQL file for this analysis [here](/sql_files/1.sales_performance_analysis.sql)
 
 #### Monthly Sales Trends & Average Order Value
 ```sql
@@ -376,6 +382,8 @@ This dashboard enables marketing and CRM teams to identify high-value customers,
 
 ###  SQL Analysis Breakdown
 
+You can find the SQL file for this anaylsis [here](/sql_files/2.customers_sales_and_churn.sql)
+
 #### Customer Segmentation: One-time vs. Repeat Customers
 ```sql
 SELECT
@@ -529,6 +537,8 @@ The Delivery & Logistics Performance Dashboard provides detailed insights into f
 This dashboard enables logistics managers to optimize delivery routes, identify underperforming regions, and quantify the relationship between delivery speed and customer satisfaction.
 
 ### SQL Analysis Breakdown
+
+You can find the SQL file for this analysis [here](/sql_files/3.delivery_and_logistics_analysis.sql)
 
 #### Overall Delivery Performance Metrics
 ```sql
@@ -695,6 +705,8 @@ The Payment Methods & Preferences Dashboard analyzes customer payment behaviors,
 This dashboard enables teams to understand which payment methods drive conversions, identify payment-related cancellation patterns, and make data-driven decisions about payment gateway partnerships and checkout optimization.
 
 ###  SQL Analysis Breakdown
+
+You can find the SQL file for this analysis [here](/sql_files/5.payment_analysis.sql)
 
 #### Payment Method Popularity Analysis
 ```sql
@@ -880,6 +892,8 @@ The Sellers Performance Dashboard provides comprehensive insights into the selle
 This dashboard enables marketplace teams to identify high-potential markets for seller recruitment, understand geographic revenue distribution, assess seller quality by region, and make strategic decisions about regional growth initiatives.
 
 ### SQL Analysis Breakdown
+
+You can find the SQL file for this analysis [here](/sql_files/6.sellers_analysis.sql)
 
 #### Top Sellers by Revenue and Review Scores
 ```sql
